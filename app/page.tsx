@@ -30,7 +30,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-lg overflow-hidden">
             <div className="aspect-video relative bg-gray-100 dark:bg-gray-700">
               <img
-                src="/placeholder.svg?height=400&width=800"
+                src="/mitologia.png?height=400&width=800"
                 alt="Portada del episodio"
                 className="w-full h-full object-cover"
               />
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h3 className="text-2xl font-semibold mb-2 tracking-tight">El futuro de la inteligencia artificial</h3>
+              <h3 className="text-2xl font-semibold mb-2 tracking-tight">Mitología Japonesa</h3>
               <p className="text-gray-500 dark:text-gray-400 mb-4">Episodio 5 • 45 minutos</p>
               <p className="mb-8 text-gray-600 dark:text-gray-300">
                 En este episodio exploramos las últimas tendencias en IA y cómo están transformando nuestra forma de
