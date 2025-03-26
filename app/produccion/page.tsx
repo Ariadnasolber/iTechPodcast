@@ -33,7 +33,7 @@ export default function ProductionPage() {
             </div>
             <div className="rounded-3xl overflow-hidden shadow-lg">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/podcast-setup.jpg?height=400&width=600"
                 alt="Estudio de grabación"
                 className="w-full h-full object-cover"
               />
