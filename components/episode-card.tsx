@@ -30,7 +30,7 @@ export default function EpisodeCard({ title, description, duration, number, imag
       <div className="flex-1">
         <div className="flex justify-between items-start">
           <div>
-            <span className="text-xs font-medium text-apple-blue">Episodio {number}</span>
+            <span className="text-xs font-medium text-apple-zinc">Episodio {number}</span>
             <h3 className="font-medium line-clamp-1">{title}</h3>
           </div>
           <span className="text-xs text-muted-foreground">{duration}</span>

@@ -80,7 +80,7 @@ export default function AudioPlayer({ audioSrc }: AudioPlayerProps) {
   }
 
   return (
-    <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-6">
+    <div className="bg-zinc-100 dark:bg-zinc-800 rounded-2xl p-6">
       <audio ref={audioRef} src={audioSrc} preload="metadata" />
 
       <div className="flex items-center gap-3 mb-4">
@@ -103,7 +103,7 @@ export default function AudioPlayer({ audioSrc }: AudioPlayerProps) {
         <Button
           variant="default"
           size="icon"
-          className="h-12 w-12 rounded-full bg-blue-600 hover:bg-blue-700"
+          className="h-12 w-12 rounded-full bg-zinc-600 hover:bg-zinc-700"
           onClick={togglePlay}
         >
           {isPlaying ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5 ml-0.5" />}
